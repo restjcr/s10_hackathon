@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #ffb4a2;
+}
+
+/* HEADER */
+
+#header{
+    height: 100px;
+    background: #2a9d8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #header h1{
+        padding-left: 1em;
+        color: #1d3557;
+    }
+
+/* MAIN */
+
+#main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f1faee;
+    padding: 30px 50px;
+}
+
+    #list li{
+        margin-bottom: 1em;
+    }
+
+        #list li a{
+            text-decoration: none;
+            color: black;
+        }
+
+#footer{
+    height: 100px;
+    font-size: 1.5em;
+    background-color: #e63946;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
